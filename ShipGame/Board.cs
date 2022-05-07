@@ -91,7 +91,7 @@ public class Board
                 var ship = Ships.Where(s => s.ShipNumber == location.ShipNumber).FirstOrDefault();
                 if (ship != null)
                 {
-                    ship.DecrementHealth();
+                    ship.IncrementDamage();
                     return (true, ship.IsSunk);
                 };
             }

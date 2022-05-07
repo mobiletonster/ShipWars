@@ -12,8 +12,11 @@ public class Ship
     public int Damage { get; set; }
     public bool IsSunk { get { return Damage == Size; } }
 
-    public void DecrementHealth()
+    public void IncrementDamage()
     {
-        Damage++;
+        if (Damage < Size)
+        {
+            Damage++;
+        }        
     }
 }

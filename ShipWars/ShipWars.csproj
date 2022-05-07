@@ -10,4 +10,8 @@
     <ProjectReference Include="..\ShipGame\ShipGame.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\video\" />
+  </ItemGroup>
+
 </Project>

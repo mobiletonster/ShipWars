@@ -16,3 +16,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+@font-face {
+    font-family: shipwars;
+    format ('truetype');
+    src: url(/font/star-jedi-font/StarJedi-DGRW.ttf);
+}
